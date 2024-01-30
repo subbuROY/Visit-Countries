@@ -1,0 +1,32 @@
+.visit-countries-container {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  background-color: #1f1f2f;
+  margin: 5px;
+}
+.image {
+  height: 120px;
+  width: 260px;
+}
+.details-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+.name {
+  font-weight: 500;
+  font-size: 19px;
+  font-family: 'Roboto';
+}
+
+.button {
+  background-color: transparent;
+  font-weight: bold;
+  font-family: 'Roboto';
+  border: 1px solid #ffff;
+  height: 22px;
+  margin-top: 18px;
+  align-items: center;
+  color: #ffff;
+}
